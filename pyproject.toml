@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-complete-test"
+version = "0.1.0"
+description = ""
+authors = ["Duany Baró Menendez <macurandb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+python_test = "main.print_hi"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
